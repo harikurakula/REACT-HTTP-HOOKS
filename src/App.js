@@ -1,7 +1,8 @@
 import "./App.css"
+import DataFetching from "./useEffect/DataFetching"
 //import HookCounterFour from "./Hooks/HookCounterFour"
 // import IntervalClassCounter from "./useEffect/IntervalClassCounter"
-import IntervalHookCounter from "./useEffect/IntervalHookCounter"
+// import IntervalHookCounter from "./useEffect/IntervalHookCounter"
 // import HookCounterThree from "./Hooks/HookCounterThree"
 //import ClassCounter from "./Hooks/ClassCounter"
 // import HookCounter from "./Hooks/HookCounter"
@@ -20,7 +21,8 @@ function App() {
       {/* <HookCounterThree/> */}
       {/* <HookCounterFour /> */}
       {/* <IntervalClassCounter /> */}
-      <IntervalHookCounter />
+      {/* <IntervalHookCounter /> */}
+      <DataFetching />
     </div>
   )
 }
