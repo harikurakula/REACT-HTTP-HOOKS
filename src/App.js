@@ -1,5 +1,6 @@
 import "./App.css"
-import DataFetching from "./useEffect/DataFetching"
+// import DataFetching from "./useEffect/DataFetching"
+import DataFetching1 from "./useEffect/DataFetching1"
 //import HookCounterFour from "./Hooks/HookCounterFour"
 // import IntervalClassCounter from "./useEffect/IntervalClassCounter"
 // import IntervalHookCounter from "./useEffect/IntervalHookCounter"
@@ -22,7 +23,8 @@ function App() {
       {/* <HookCounterFour /> */}
       {/* <IntervalClassCounter /> */}
       {/* <IntervalHookCounter /> */}
-      <DataFetching />
+      {/* <DataFetching /> */}
+      <DataFetching1 />
     </div>
   )
 }
