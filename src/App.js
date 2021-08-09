@@ -1,5 +1,6 @@
 import "./App.css"
-import HookCounterFour from "./Hooks/HookCounterFour"
+//import HookCounterFour from "./Hooks/HookCounterFour"
+import IntervalClassCounter from "./useEffect/IntervalClassCounter"
 // import HookCounterThree from "./Hooks/HookCounterThree"
 //import ClassCounter from "./Hooks/ClassCounter"
 // import HookCounter from "./Hooks/HookCounter"
@@ -16,7 +17,8 @@ function App() {
       {/* <HookCounter /> */}
       {/* <HookCounterTwo /> */}
       {/* <HookCounterThree/> */}
-      <HookCounterFour />
+      {/* <HookCounterFour /> */}
+      <IntervalClassCounter />
     </div>
   )
 }
